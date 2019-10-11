@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A simple todo App using serverless and react",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy"
   },
   "keywords": [
     "serverless",
@@ -16,6 +17,7 @@
     "uuid": "^3.3.3"
   },
   "devDependencies": {
-    "aws-sdk": "^2.544.0"
+    "aws-sdk": "^2.544.0",
+    "serverless": "^1.54.0"
   }
 }
