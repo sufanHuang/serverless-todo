@@ -17,14 +17,14 @@ module.exports = {
             }
         }
 
-        let [ error, result ] = await to(dynamoDb.put(databaseParameters).promise())
+        let [ error ] = await to(dynamoDb.put(databaseParameters).promise())
 
         if(error) {
             console.log(error)
             return failure({ status: false })
         }
 
-        return success(result.Item)
+        return success(databaseParameters.Item)
     }
 }
 
