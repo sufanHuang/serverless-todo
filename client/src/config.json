@@ -1,0 +1,6 @@
+{
+  "apiGateway":{
+    "REGION": "us-east-1",
+    "URL": "https://5ivpkyrqda.execute-api.us-east-1.amazonaws.com/dev"
+  }
+}
